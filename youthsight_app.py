@@ -9,7 +9,7 @@ import math
 import random
 
 # Streamlit sayfa yapılandırması
-st.set_page_config(layout="centered", page_title="YouthSight", page_icon="✨")
+st.set_page_config(layout="centered", page_title="YouthSight: Çocuğunuzu Keşfedin", page_icon="✨")
 
 # --- Session State Initializasyonu ---
 # Uygulamanın hangi sayfasında olduğumuzu tutar
@@ -1302,7 +1302,7 @@ def generate_report_html(child_info, family_info, child_answers, teacher_info, a
             ''' if st.session_state.show_teacher_section else ''}
 
             <div class="footer">
-                <p>Bu rapor YouthSight tarafından tüm çocukların geleceği için gönüllü geliştirilmiştir. 💙</p>
+                <p>Bu rapor YouthSight tarafından tüm çocukların geleceği için gönüllü olarak Semih Özbilen tarafından geliştirilmiştir. 💙</p>
                 <p>&copy; {datetime.date.today().year} YouthSight. Tüm Hakları Saklıdır.</p>
             </div>
         </div>
